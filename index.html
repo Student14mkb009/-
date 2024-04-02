@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Клуб Винкс
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+             }
+             #nav {background-color: rgb(17, 37, 287);
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: pink;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(17, 66, 169);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-color: rgb(11, 28, 155);  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(22, 167, 178, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(13, 26, 277);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Клуб Винкс</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">О персонажах</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">О персонажах</a></li>
+                </ul>
+            </div>
+
+            <div id="sidebar-right">
+                <p>Клуб Винкс- итальянский фантастический мультсериал о борьбе добрых волшебниц со злыми колдуньями и другими магическими существами. В волшебном мире рядом с магией и колдуньями существуют мифические существа.</p>
+             </div>
+            <div id="main">
+                <p>Винкс — это группа, состоящая из шести (в первом сезоне – пяти, а в четвёртом – семи) фей, которые являются главными героинями мультсериала «Клуб Винкс: Школа волшебниц» и спин-оффа «Мир Винкс».</p>
+                <p>Алфея — самая популярная школа для фей в волшебном измерении Магикс. В этой школе преподаватели магии учат фей использованию их волшебства.</p>
+                <p>Название клуба происходит от английского слова "wings" в переводе "крылья". Последние две буквы заменили на "X", который как раз и символизирует крылья.</p>
+            </div>
+        </div>
+        <div id="footer">Это подвал с копирайтом</div>
+    </body>
+</html>   
